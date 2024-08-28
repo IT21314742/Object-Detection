@@ -2,4 +2,4 @@ import cv2
 import numpy as np
 
 img = cv2.imread('assets/soccer_practice.jpg')
-template = cv2.imread()
+template = cv2.imread('')
