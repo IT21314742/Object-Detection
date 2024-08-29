@@ -3,7 +3,7 @@ import numpy as np
 
 img = cv2.imread('assets/soccer_practice.jpg')
 template = cv2.imread('assets/ball.png', 0)
-copy()
+opy()
 h, w = template.shape
 
 methods = [cv2.TM_CCOEFF, cv2.TM_CCOEFF_NORMED, cv2.TM_CCORR,
