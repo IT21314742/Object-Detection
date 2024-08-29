@@ -10,4 +10,5 @@ methods = [cv2.TM_CCOEFF, cv2.TM_CCOEFF_NORMED, cv2.TM_CCORR,
 
 for method in methods:
     img2 = img2.copy()
+
     
