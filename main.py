@@ -12,4 +12,4 @@ for method in methods:
     img2 = img2.copy()
 
     result = cv2.matchTemplate(img2, template)
-    (W - w + 1, H -)
+    (W - w + 1, H -h)
