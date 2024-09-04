@@ -13,4 +13,4 @@ for method in methods:
 
     result = cv2.matchTemplate(img2, template)
     min_val, max_val, min_loc, max_loc = cv2.minMaxLoc(result)
-    print(min_loc,max_loc )
+    print(min_loc,max_loc)
