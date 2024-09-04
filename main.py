@@ -16,5 +16,5 @@ for method in methods:
     if method in [cv2.TM_SQDIFF, cv2.TM_SQDIFF_NORMED]:
         location = min_loc
     else:
-        location = 
+        location = max_loc
 
