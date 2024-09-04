@@ -18,5 +18,5 @@ for method in methods:
     else:
         location = max_loc
 
-cv2.
+cv2.rectangle
 
