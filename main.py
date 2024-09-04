@@ -18,5 +18,5 @@ for method in methods:
     else:
         location = max_loc
 
-cv2.rectangle(img, )
+cv2.rectangle(img, location)
 
