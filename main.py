@@ -17,3 +17,4 @@ for method in methods:
     w = 4
     w = 2
     H = 4
+    h = 2
