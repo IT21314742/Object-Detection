@@ -13,3 +13,6 @@ for method in methods:
 
     result = cv2.matchTemplate(img2, template)
     (W - w + 1, H -h + 1)
+
+    w = 4
+    
