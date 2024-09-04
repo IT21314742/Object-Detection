@@ -14,7 +14,7 @@ for method in methods:
     result = cv2.matchTemplate(img2, template)
     (W - w + 1, H -h + 1)
 
-    w = 4
+    W = 4
     w = 2
     H = 4
     h = 2
