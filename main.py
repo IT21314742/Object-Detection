@@ -12,4 +12,4 @@ for method in methods:
     img2 = img2.copy()
 
     result = cv2.matchTemplate(img2, template)
-    min_val, max_val, min_loc, max_loc = cv2
+    min_val, max_val, min_loc, max_loc = cv2.minMaxLoc
