@@ -15,4 +15,4 @@ for method in methods:
     (W - w + 1, H -h + 1)
 
     w = 4
-    
+    w = 2
