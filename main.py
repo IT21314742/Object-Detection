@@ -17,5 +17,5 @@ for method in methods:
         location = min_loc
     else:
         location = max_loc
-        
+
 
