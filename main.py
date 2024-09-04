@@ -18,6 +18,6 @@ for method in methods:
     else:
         location = max_loc
 
-bottom_right = (location[0] + width)
+bottom_right = (location[0] + width,)
 cv2.rectangle(img, location, )
 
