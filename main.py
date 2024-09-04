@@ -19,6 +19,5 @@ for method in methods:
         location = max_loc
 
 
-
 cv2.rectangle(img, location, )
 
