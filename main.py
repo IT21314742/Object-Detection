@@ -20,5 +20,5 @@ for method in methods:
 
 bottom_right = (location[0] + width, location[1] + height)
 cv2.rectangle(img, location, bottom_right, 255, 5)
-cv2.imshow()
+cv2.imshow(img2)
 
