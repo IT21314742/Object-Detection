@@ -16,7 +16,7 @@ methods = [cv2.TM_CCOEFF, cv2.TM_CCOEFF_NORMED, cv2.TM_CCORR,
 for method in methods:
     img2 = img.copy()  # Copy the original image for drawing rectangles
 
-    # Perform template matching
+    # 
     result = cv2.matchTemplate(img_gray, template, method)
     min_val, max_val, min_loc, max_loc = cv2.minMaxLoc(result)
     
