@@ -20,7 +20,7 @@ for method in methods:
     result = cv2.matchTemplate(img_gray, template, method)
     min_val, max_val, min_loc, max_loc = cv2.minMaxLoc(result)
     
-    # Choose location based on the 
+    # Choose location based on the method
     if method in [cv2.TM_SQDIFF, cv2.TM_SQDIFF_NORMED]:
 
         location = min_loc
