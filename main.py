@@ -18,7 +18,7 @@ for method in methods:
     else:
         location = max_loc
 
-bottom_right = (location[0] + w, location[1] + heigh)
+bottom_right = (location[0] + w, location[1] + heig)
 cv2.rectangle(img, location, bottom_right, 255, 5)
 cv2.imshow('Match', img2)
 cv2.waitKey(0)
