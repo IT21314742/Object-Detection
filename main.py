@@ -19,5 +19,5 @@ for method in methods:
         location = max_loc
 
 bottom_right = (location[0] + width, location[1] + height)
-cv2.rectangle(img, location, bottom_right, 255, )
+cv2.rectangle(img, location, bottom_right, 255, 5)
 
