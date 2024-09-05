@@ -3,7 +3,7 @@ import numpy as np
 
 # Load images
 img = cv2.imread('assets/soccer_practice.jpg')
-template = cv2.imread('assets/ball.png', 0)  # Grayscale template
+template = cv2.imread('assets/show.png', 0)  # Grayscale template
 h, w = template.shape  # Get dimensions of the template
 
 # Convert main image to grayscale
@@ -22,9 +22,9 @@ for method in methods:
     
     # Choose location based on the method
     if method in [cv2.TM_SQDIFF, cv2.TM_SQDIFF_NORMED]:
-        
+
         location = min_loc
-    else:
+    else:   
         location = max_loc
 
     # Define bottom-right corner of the rectangle
