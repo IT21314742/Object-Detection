@@ -33,7 +33,7 @@ for method in methods:
     # Draw a rectangle around the detected region
     cv2.rectangle(img2, location, bottom_right, 255, 5)
     
-    # Display the result for each method
+    # Display the result for each 
     cv2.imshow(f'Match - Method: {method}', img2)
     cv2.waitKey(0)
     cv2.destroyAllWindows()
